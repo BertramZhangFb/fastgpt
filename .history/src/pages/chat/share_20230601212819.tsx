@@ -628,7 +628,7 @@ const Chat = ({ shareId, historyId }: { shareId: string; historyId: string }) =>
                       <Avatar
                         src={
                           item.obj === 'Human'
-                            ? userInfo?.avatar || '/icon/human.jpg'
+                            ? userInfo?.avatar || '/icon/human.png'
                             : shareChatData.model.avatar || LOGO_ICON
                         }
                         w={['20px', '34px']}

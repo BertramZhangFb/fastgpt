@@ -83,7 +83,7 @@ const Navbar = () => {
         cursor={'pointer'}
         onClick={() => router.push('/number')}
       >
-        <Avatar w={'36px'} h={'36px'} src={userInfo?.avatar} fallbackSrc={'/icon/human.jpg'} />
+        <Avatar w={'36px'} h={'36px'} src={userInfo?.avatar} fallbackSrc={'/icon/human.png'} />
       </Box>
       {/* 导航列表 */}
       <Box flex={1}>

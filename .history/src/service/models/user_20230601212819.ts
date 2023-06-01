@@ -22,7 +22,7 @@ const UserSchema = new Schema({
   },
   avatar: {
     type: String,
-    default: '/icon/human.jpg'
+    default: '/icon/human.png'
   },
   balance: {
     // 平台余额，不可提现
