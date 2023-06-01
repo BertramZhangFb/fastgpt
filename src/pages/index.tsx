@@ -162,13 +162,13 @@ const Home = () => {
           letterSpacing={'5px'}
           color={'myBlue.600'}
         >
-          DMGPT
+          BertramGPT
         </Box>
         <Box color={'myBlue.600'} fontSize={['15px', '35px']}>
-        DMAI知识库
+        我的知识库
         </Box>
         <Box color={'myBlue.600'} fontSize={['30px', '50px']}>
-        快速搭建自己的AI知识库
+        自己的AI知识库
         </Box>
 
         <Button
